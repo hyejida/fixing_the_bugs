@@ -162,7 +162,7 @@ h3 {
   font-size: var(--font-small);
   font-weight: var(--weight-regular);
   color: var(--color-navy);
-  margin: 18px;
+  margin-top: 18px;
   padding: 8px 12px;
   border: 2px solid var(--color-pink);
   border-radius: var(--size-border-radius);
