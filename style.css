@@ -158,13 +158,13 @@ h3 {
 }
 
 .home__contact {
-  background-color: var(--color-light-green);
+  background-color: var(--color-pink);
   font-size: var(--font-small);
   font-weight: var(--weight-regular);
-  color: var(--color-white);
+  color: var(--color-navy);
   margin: 18px;
   padding: 8px 12px;
-  border: 2px solid var(--color-light-green);
+  border: 2px solid var(--color-pink);
   border-radius: var(--size-border-radius);
 }
 
@@ -194,10 +194,10 @@ h3 {
   font-size: 70px;
   /* background-color: var(--color-pink); */
   margin: auto;
-  border: 1px solid var(--color-blue);
+  border: 1px solid var(--color-pink);
   border-radius: 50%;
   margin-bottom: 20px;
-  color: var(--color-light-blue);
+  color: var(--color-pink);
 }
 
 .major__icon i {
@@ -205,7 +205,7 @@ h3 {
 }
 
 .major__icon:hover i {
-  color: var(--color-light-blue);
+  color: var(--color-navy);
   transform: rotate(-30deg) scale(1.1);
 }
 .major__description {
