@@ -1,0 +1,131 @@
+.bg-right {
+    fill: #7356bd;
+  }
+  .bg-center {
+    fill: #b31399;
+  }
+  .bg-left {
+    fill: #097bec;
+  }
+  .f,
+  .g {
+    stroke: #000;
+  }
+  .f,
+  .g,
+  .h,
+  .i {
+    fill: none;
+    stroke-linecap: round;
+  }
+  .f,
+  .g,
+  .i {
+    stroke-linejoin: round;
+  }
+  .f,
+  .h,
+  .i {
+    stroke-width: 4px;
+  }
+  .g {
+    stroke-width: 4.11px;
+  }
+  .h {
+    stroke: #141313;
+    stroke-miterlimit: 10;
+  }
+  .i {
+    stroke: #bfaaaa;
+  }
+  
+  /* Left Anmation - shape */
+  
+  @keyframes left-shape-ani {
+    from {
+      stroke-dashoffset: 1727;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .left-shape {
+    stroke-dasharray: 1727;
+    stroke-dashoffset: -100;
+    animation: left-shape-ani 5s 0.6s linear alternate infinite;
+  }
+  
+  /* Left Anmation - lips */
+  
+  @keyframes left-lip-ani {
+    from {
+      stroke-dashoffset: 475;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .left-lip {
+    stroke-dasharray: 475;
+    stroke-dashoffset: -475;
+    animation: left-lip-ani 5s 1s linear infinite;
+  }
+  
+  /* center-man */
+  
+  @keyframes center-man-face-ani {
+    from {
+      stroke-dashoffset: 770;
+    }
+    to {
+      stroke-dashoffset: 5000;
+    }
+  }
+  
+  .center-man-shape {
+    stroke-dasharray: 770;
+    stroke-dashoffset: -770;
+    animation: center-man-face-ani 35.6s 1s linear infinite;
+  }
+  
+  /* center-shape */
+  
+  @keyframes center-body-ani {
+    from {
+      stroke-dashoffset: 1790;
+    }
+    to {
+      stroke-dashoffset: 200;
+    }
+  }
+  
+  .center-body {
+    stroke-dasharray: 1790;
+    stroke-dashoffset: -1790;
+    animation: center-body-ani 6.6s 1s linear infinite;
+  }
+  
+  /* right-poster */
+  
+  @keyframes right-shape-ani {
+    from {
+      stroke-dashoffset: 3009;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .right-shape {
+    stroke-dasharray: 3009;
+    stroke-dashoffset: -3009;
+    animation: right-shape-ani 5s 0.6s linear alternate infinite;
+  }
+  
+  .svg-mockup-poster svg {
+      margin: 0 30px;
+      width: 100vw;
+      height: 800px;
+  }

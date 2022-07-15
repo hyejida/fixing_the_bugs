@@ -1,0 +1,167 @@
+.project01-banner {
+    background: url('../imgs/icbc-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-position: 50% 70%;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+
+  /* objective */
+.objective {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.obj-box1 {
+  margin-top: -20px;
+}
+  .obj-box2 {
+    background-color:  #fad9c1;
+    width: 100%;
+    height: 110px;
+    /* position: relative; */
+    padding: 10px 40px 10px 40px;
+    text-align: left;
+    border-radius: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  }
+.red {
+  color: rgb(213, 96, 96);
+  font-size: 18px;
+}
+
+
+  .obj-box3 {
+    background-color:  #c0e3e1;
+    width: 100%;
+    height: 110px;
+    /* position: relative; */
+    padding: 10px 40px 10px 40px;
+    text-align: left;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .obj-box4 {
+    background-color:  #eaf4ff;
+    width: 100%;
+    height: 110px;
+    /* position: relative; */
+    padding: 10px 40px 10px 40px;
+    text-align: left;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+
+
+  /* Archetypes */
+  #archetypes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #archetypes li {
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+
+  .navy {
+    color: navy;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+
+  .persona-img img{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #procedure  {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 0px; */
+  }
+
+  #procedure h3 {
+    margin-top: 30px;
+  }
+
+  .procedure-result {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .procedure-result img{
+    width: 45%;
+    /* margin-right: 5%; */
+  }
+
+  .procedure-result-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .procedure-result-img img {
+    width: 30.33%;
+    height: auto;
+    margin-right: calc(100%-30.33%);
+    margin-bottom: 30px;
+  }
+
+  .procedure-result-img img:nth-child(4){
+    margin-right: 60%;
+  }
+
+  #tol {
+    margin-top: 50px;
+  }
+
+  .column {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .column-left {
+    flex-basis: 35%;
+    margin-right: 30px;
+  }
+
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(154, 154, 154, 0.645);
+    margin: 60px 0;
+  }
+
+  .column-right{
+    flex-basis: 55%;
+    justify-items: center;
+  }
+
+  .column-right img {
+    width: 100%;
+  }
+
+  #changes {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  #changes h2 {
+    margin-bottom: 50px;
+  }

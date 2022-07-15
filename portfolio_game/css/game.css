@@ -1,0 +1,217 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-yellow: #fed000;
+    --color-yollow-light: #fff192;
+    --color-purple: #710096;
+    --color-red: #e53935;
+    /* --color-red-light: #e27b79; */
+    --color-red-light: #ff8c94;
+    --color-orange-light: #ffd3b5;
+  }
+  
+  @keyframes starting {
+    from {
+      transform: rotateX(0deg) rotateZ(0deg);
+    }
+    to {
+      transform: rotateX(60deg) rotateZ(240deg);
+    }
+  }
+  
+  
+  @keyframes moving {
+    from {
+      transform: translateZ(80px) rotateX(-90deg) scaleY(0.7);
+    }
+    to {
+      transform: translateZ(60px) rotateX(-90deg);
+    }
+  }
+  
+ .theme-wrap-game {
+    /* margin-top: 50px; */
+    font-family: "VT323", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+    color: var(--color-black);
+    /* background: var(--color-yellow); */
+    /* background: url('bg.jpg'); */
+    background: url('../imgs/assets/sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 0 25%; */
+    height: 650px;
+    width: 100%;
+  }
+  
+  .game {
+      margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: repeat(6, 10vmin);
+    grid-template-columns: repeat(6, 10vmin);
+    gap: 1vw;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg) rotateZ(0deg);
+    animation: starting 2s 0.5s forwards;
+  }
+  
+  .tile {
+    position: relative;
+    border: 3px solid var(--color-black);
+    font-size: 2rem;
+    transform-style: preserve-3d;
+  }
+  
+  .tile label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: var(--color-white);
+    transform-style: preserve-3d;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .tile label:hover {
+    color: var(--color-white);
+    background-color: var(--color-orange-light);
+  }
+  
+  .tile input {
+    position: absolute;
+    display: none;
+  }
+  
+  .tile input:checked + label {
+    color: var(--color-white);
+    background-color: var(--color-red-light);
+  }
+  
+  .tile input:checked + label:before {
+    content: "";
+    position: absolute;
+    background: url("../imgs/assets/disney.png") no-repeat center;
+    background-size: contain;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: moving 0.22s infinite alternate;
+  }
+  
+  .tile:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+    transform: rotate(135deg);
+    border-radius: 50%;
+  } 
+  
+  .tile:nth-child(2) {
+    grid-row: 1;
+    grid-column: 2 /3;
+    transform: rotate(180deg);
+  }
+  
+  .tile:nth-child(3),
+  .tile:nth-child(4),
+  .tile:nth-child(5) {
+    grid-row: 1;
+    transform: rotate(180deg);
+  }
+  
+  .tile:nth-child(6) {
+    grid-row: 1;
+    transform: rotate(225deg);
+    border-radius: 50%;
+  }
+  
+  .tile:nth-child(7) {
+    grid-row: 2;
+    grid-column: 6;
+    transform: rotate(-90deg);
+    /* transform: rotate(300deg); */
+  }
+  
+  .tile:nth-child(8) {
+    grid-row: 3;
+    grid-column: 6;
+    transform: rotate(-90deg);
+  }
+  
+  .tile:nth-child(9) {
+    grid-row: 4;
+    grid-column: 6;
+    transform: rotate(-90deg);
+  }
+  
+  .tile:nth-child(10) {
+    grid-row: 5;
+    grid-column: 6;
+    transform: rotate(-90deg);
+  }
+  
+  .tile:nth-child(11) {
+    grid-row: 6;
+    grid-column: 6;
+    transform: rotate(315deg);
+    border-radius: 50%;
+  }
+  
+  .tile:nth-child(12) {
+    grid-row: 6;
+    grid-column: 5;
+  }
+  
+  .tile:nth-child(13) {
+    grid-row: 6;
+    grid-column: 4;
+  }
+  
+  .tile:nth-child(14) {
+    grid-row: 6;
+    grid-column: 3;
+  }
+  
+  .tile:nth-child(15) {
+    grid-row: 6;
+    grid-column: 2;
+  }
+  
+  .tile:nth-child(16) {
+    grid-row: 6;
+    grid-column: 1;
+    transform: rotate(45deg);
+    border-radius: 50%;
+  }
+  
+  .tile:nth-child(17) {
+    grid-row: 5;
+    transform: rotate(90deg);
+  }
+  
+  .tile:nth-child(18) {
+    grid-row: 4;
+    transform: rotate(90deg);
+  }
+  
+  .tile:nth-child(19) {
+    grid-row: 3;
+    transform: rotate(90deg);
+  }
+  
+  .tile:nth-child(20) {
+    grid-row: 2;
+    transform: rotate(90deg);
+  }
+  .tile:nth-child(1) label,
+  .tile:nth-child(6) label,
+  .tile:nth-child(11) label,
+  .tile:nth-child(16) label {
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,80 @@
+* {
+  overflow-x: hidden;
+}
+
+.project01-banner {
+    background: url('../imgs/poster.png');
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    background-position: 50% 40%;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 0;
+    opacity: 80%;
+  }
+  
+  .box {
+    margin-top: 40px;
+  }
+
+  .the-svg {
+    width: 90vw;
+    height: 500px;
+    /* border: 1px solid rgba(0, 0, 0, 0.477); */
+    overflow-x: hidden ;
+    background: rgb(245, 236, 199);
+  }
+
+
+  /* Pattern */
+
+  #pattern {
+    margin-top: 120px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Line Drawing */
+
+  #line-drawing {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .svg-mockup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+
+  .svg-mockup img  {
+    width: 300px;
+    height: auto;
+    box-shadow: 1px 5px 14px -5px #c88ba1;
+    margin-right: 17px;
+  }
+
+  .svg-mockup-poster {
+    margin-top: 46px;
+  }
+
+  i {
+    color: rgb(179, 115, 126);
+  }
+
+  #svg-mockup-stroke {
+    margin-top: 120px;
+  }
+
+ /* .last-mockups-flex {
+   display: flex;
+ } */
+

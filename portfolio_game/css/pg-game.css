@@ -1,0 +1,114 @@
+.project01-banner {
+    background: url('../imgs/boardgame-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 135%;
+    /* background-size: cover contain; */
+    background-position: 50% 54%;
+    height: 540px;
+    width: 100%;
+    opacity: .9;
+  }
+
+
+  .tablet__screenContainer video {
+    width: 100%;
+    height: 100%;
+  }
+
+  #details {
+    margin-top: 0;
+    margin-right: 0;
+    margin: 0 0 30px 0;
+  }
+
+  /* procedure */
+.procedure-wrap {
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+
+}
+
+  .procedure-wrap .procedure{
+    display: flex;
+    align-items: center;
+  }
+
+  .procedure-wrap .procedure-desc {
+    flex-basis: 60%;
+  }
+
+  .procedure-desc:nth-child(1),
+  .procedure-desc:last-child {
+    margin-left: 40px;
+  }
+
+  .procedure-desc:nth-child(2),
+  .procedure-desc:last-child {
+    margin-right: 40px;
+  }
+
+  #procedure h2 {
+    margin-bottom: 40px;
+  }
+
+  #procedure h3{
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.4rem;
+    text-align: left;
+  }
+  
+  .procedure img,
+  .procedure video {
+    width: 55%;
+    border-radius: 10px;
+    margin-bottom: 60px;
+    box-shadow: 2px -2px 13px 5px rgba(166,164,166,1);
+  }
+  
+  .procedure-wrap .procedure:nth-child(2),
+  .procedure-wrap .procedure:nth-child(4){
+    flex-direction: row-reverse;
+  }
+
+
+  /* Conclusions */
+
+.result-title {
+  margin-top: 110px;
+  margin-bottom:40px;
+}
+
+  .tablet-mockup {
+    margin-bottom:67px;
+  }
+
+  #result {
+    margin-top: 0;
+  }
+
+  #result h3 {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: red;
+  }
+
+
+
+  .line {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(149, 149, 149, 0.257);
+    margin-top: 110px;
+  }
+
+  .theme-wrap-game {
+    overflow: hidden;
+  }
+
+  i {
+    color: rgb(179, 115, 126);
+  }

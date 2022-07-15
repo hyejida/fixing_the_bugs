@@ -1,0 +1,221 @@
+<!-- CSS, HTML ANIMATION -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project03-Boardgame</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Hyeji" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8adf1c13b4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+    />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="navbar__logo">
+          <a href="../index.html"
+            ><img src="imgs/logo_Hyeji.png" alt="personal_logo"</a
+          >
+        </div>
+        <div class="navbar__menu">
+          <ul class="navbar__menu">
+            <li class="navbar__menu__item"><a href="../index.html">Home</a></li>
+            <li class="navbar__menu__item active">
+              <a href="about.html">About</a>
+            </li>
+            <li class="navbar__menu__item">Work</li>
+            <li class="navbar__menu__item">Resume</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="project01-banner">
+      <div class="banner-title">
+        <span class="banner-title-lg">Boardgame</span>
+        <span class="banner-title-sm">CSS Animations</span>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h1>Project Details</h1>
+        <div class="details-list">
+          <p><span>Scope:</span> Web Design, Web Development</p>
+          <p>
+            <span>Tools Used:</span>HTML, CSS, JavaScript, Adobe Illustrator
+          </p>
+          <p><span>Timeline:</span> 2 Week</p>
+          <p class="line-height">
+            Using CSS, we can create beautiful animations of out HTML elements
+            without using JavaScript. We can use the built-in
+            <i class="red">@keyframe</i> at-rule, which controls the steps of an
+            animated sequence by defining the style of each keyframes.
+          </p>
+        </div>
+        <a class="live-server" href="#"
+          >Link to a Live Server <i class="fa-solid fa-angle-right"></i
+        ></a>
+      </section>
+      <!-- Process -->
+      <section id="procedure">
+        <h2>CSS Animations</h2>
+        <div class="procedure-wrap">
+          <div class="procedure">
+            <img src="imgs/process01.jpg" alt="css-process-1" />
+            <div class="procedure-desc">
+              <h3>Make a gird that is a set of intersecting six columns and four rows. Grid was designed for two-dimensional layout - rows, and columns at the same time.</h3>
+            </div>
+          </div>
+          <div class="procedure">
+            <img src="imgs/grid.png" alt="css-process-2" />
+            <div class="procedure-desc">
+              <h3>Set a grid position with the <i>grid-row</i> and <i>grid-column</i> properties. Then, apply a transformation that rotates an element. </h3>
+            </div>
+          </div>
+          <div class="procedure">
+            <video autoplay muted loop src="imgs/start_moving.mp4"></video>
+            <div class="procedure-desc">
+              <h3>Use the keyframes and transform CSS properties to create an anitmated Intro. With <i>preserve-3d</i>syntax, indicates the children of the element should be positioned in the 3D-space </h3>
+            </div>
+          </div>
+          <div class="procedure">
+            <video autoplay muted loop src="imgs/rabbit_moving.mp4"></video>
+            <div class="procedure-desc">
+              <h3>I made every grid tiles with the <i><`input type="radio"></i> to be selected. Then used <i>::before</i> selector with a cute rabbit character to insert cotent before a selected radio button.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+<div class="line"></div>
+      <h2 class="result-title">Final Result</h2>
+      <section id="result">
+        
+        <!-- Ipad Mockup -->
+        <div class="tablet-mockup">
+          <figure class="tablet landscape">
+            <div class="tablet__screen">
+              <div class="tablet__screenContainer">
+                <video autoplay loop muted>
+                  <source src="imgs/result.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+            <div class="tablet__camera">
+              <span class="tablet__cameraEye"></span>
+            </div>
+            <div class="tablet__home">
+              <span class="tablet__homeSquare"></span>
+            </div>
+          </figure>
+        </div>
+      </section>
+        <h3>Try it!</h3>
+        <div class="theme-wrap-game">
+          <div class="game">
+            <div class="tile">
+              <input type="radio" name="tile" id="tile1" />
+              <label for="tile1">1</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile2" />
+              <label for="tile2">2</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile3" />
+              <label for="tile3">3</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile4" />
+              <label for="tile4">4</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile5" />
+              <label for="tile5">5</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile6" />
+              <label for="tile6">6</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile7" />
+              <label for="tile7">7</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile8" />
+              <label for="tile8">8</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile9" />
+              <label for="tile9">9</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile10" />
+              <label for="tile10">10</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile11" />
+              <label for="tile11">11</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile12" />
+              <label for="tile12">12</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile13" />
+              <label for="tile13">13</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile14" />
+              <label for="tile14">14</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile15" />
+              <label for="tile15">15</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile16" />
+              <label for="tile16">16</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile17" />
+              <label for="tile17">17</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile18" />
+              <label for="tile18">18</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile19" />
+              <label for="tile19">19</label>
+            </div>
+            <div class="tile">
+              <input type="radio" name="tile" id="tile20" />
+              <label for="tile20">20</label>
+            </div>
+          </div>
+        </div>
+    </main>
+    <section id="contact" class="section">
+      <div class="contact__links">
+        <a href="https://github.com/hyejida" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="linkedin.com/in/hyeji-kang-275080228" target="_blank">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+        <p class="contact__rights">
+          &copy; 2022 Hyeji Kang. All Rights Reserved
+        </p>
+      </div>
+      <!-- <div class="contact__email">owlgpwl94@gmail.com</div> -->
+    </section>
+  </body>
+</html>

@@ -1,0 +1,194 @@
+:root {
+    /* color */
+    --color-brown: #a75d34;
+    --color-brown-light:#bb7c5a;
+    --color-white: #fff;
+    /* font */
+    --font-fmaily-title: 'Rubik', sans-serif;
+    --font-family-default:  "Open Sans", sans-serif;
+    /* font size */
+    --font-xl: 45px;
+    --font-large: 30px;
+}
+
+main {
+    /* min-width: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+
+section {
+    margin-top: 90px;
+    width: 1000px;
+    /* min-width: 1000px; */
+}
+
+.margin {
+    margin-top: 80px;
+}
+
+.margin-s {
+    margin-top: 35px;
+}
+
+/* Banner */
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.banner-title-lg {
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(8, 54, 140);
+    /* opacity: 100%; */
+}
+
+.banner-title-sm {
+    font-family: var(--font-fmaily-title);
+    font-size: 22px;
+    color:rgb(73, 110, 212);
+}
+
+.line-height {
+    line-height: 2;
+}
+
+h1 {
+    font-family: var(--font-fmaily-title);
+    font-size: var(--font-large);
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: var(--font-fmaily-title);
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-family: var(--font-fmaily-title);
+    font-size: 20px;
+}
+
+.details-list p{
+    font-size: 1em;
+    padding-left: 5px;
+    padding-top: -10px;
+}
+
+.details-list span {
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/* Project Details */
+.live-server {
+    color: #a1c1e5;
+    font-size: .9em;
+    padding-left: 5px;
+}
+
+/* Wireframes */
+
+.wireframe {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.wireframe-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.wireframe-imgs img {
+    width: 20.33%;
+    height: auto;
+    box-shadow: 1px 5px 14px -5px #0000007a;
+    margin-bottom: 40px;
+}
+
+
+/* hifi */
+
+.hifi h2{
+    margin-bottom: 30px;
+}
+.colour-scheme {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.colour-scheme .colour {
+    margin: -8px 20px 10px 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.colour-scheme .colour:first-child {
+    background-color: #f7eaa6;
+}
+
+.colour-scheme .colour:nth-child(2) {
+    background-color: #dbdb62
+}
+
+.colour-scheme .colour:nth-child(3) {
+    background-color: #bbbe3c;
+}
+
+.colour-scheme .colour:nth-child(4) {
+    background-color: #a75d34;
+}
+
+.colour-scheme .colour:last-child{
+    background-color: #c78337;
+}
+.hifi img {
+    width: 100%;
+}
+
+.hifi-mockups {
+    /* display: flex; */
+    margin-top: 100px;
+}
+
+
+.hifi-mockups-desktop {
+    display: flex;
+    align-items: center;
+}
+
+.hifi-mockups-desktop .h3-title {
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.left {
+    flex-basis: 40%;
+    padding-right: 20px;
+}
+
+.right {
+    flex: auto;
+    margin-left: 40px;
+}
+
+#content {
+    padding: none;
+    margin-top: -70px;
+    /* height: 400px; */
+}
